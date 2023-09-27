@@ -14,26 +14,10 @@
 			"installDirectlyFromGitHubRelease": true,
 			"version": "latest"
 		},
-		"ghcr.io/devcontainers/features/go:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/java:1": {
-			"installGradle": true,
-			"installMaven": true,
-			"version": "latest",
-			"jdkDistro": "ms",
-			"gradleVersion": "latest",
-			"mavenVersion": "latest",
-			"antVersion": "latest"
-		},
 		"ghcr.io/devcontainers/features/node:1": {
 			"nodeGypDependencies": true,
 			"version": "lts",
 			"nvmVersion": "latest"
-		},
-		"ghcr.io/devcontainers/features/rust:1": {
-			"version": "latest",
-			"profile": "default"
 		},
 		"ghcr.io/devcontainers/features/sshd:1": {
 			"version": "latest"
@@ -41,7 +25,6 @@
 		"ghcr.io/devcontainers-contrib/features/black:2": {
 			"version": "latest"
 		},
-		"ghcr.io/devcontainers-contrib/features/ffmpeg-apt-get:1": {},
 		"ghcr.io/devcontainers-contrib/features/flake8:2": {
 			"version": "latest",
 			"plugins": "flake8-black flake8-isort flake8-print flake8-bandit flake8-pylint flake8-builtins flake8-spellcheck flake8-pytest-style flake8-django flake8-fastapi"
@@ -56,36 +39,11 @@
 		"ghcr.io/devcontainers-contrib/features/mypy:2": {
 			"version": "latest"
 		},
-		"ghcr.io/devcontainers-contrib/features/poetry:2": {
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers-contrib/features/ruff:1": {
 			"version": "latest"
 		},
-		"ghcr.io/devcontainers-contrib/features/scalacli-sdkman:2": {
-			"version": "latest",
-			"jdkVersion": "latest",
-			"jdkDistro": "ms"
-		},
-		"ghcr.io/devcontainers-contrib/features/yt-dlp:2": {
-			"version": "latest"
-		},
-		"ghcr.io/shyim/devcontainers-features/bun:0": {},
-		"ghcr.io/ebaskoro/devcontainer-features/scala:1": {
-			"installSbt": true,
-			"version": "latest",
-			"sbtVersion": "latest"
-		},
 		"ghcr.io/warrenbuckley/codespace-features/sqlite:1": {},
-		"devwasm.azurecr.io/dev-wasm/dev-wasm-feature/golang-wasi:0": {
-			"version": "0.29.0"
-		},
-		"devwasm.azurecr.io/dev-wasm/dev-wasm-feature/rust-wasi:0": {},
-		"ghcr.io/jckimble/devcontainer-features/ngrok:3": {},
 		"ghcr.io/devcontainers-community/npm-features/prettier:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers-community/npm-features/typescript:1": {
 			"version": "latest"
 		},
 		"ghcr.io/mamba-org/devcontainer-features/micromamba:1": {
